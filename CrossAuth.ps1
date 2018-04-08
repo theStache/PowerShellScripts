@@ -1,3 +1,5 @@
+#Used to identify SVC accounts authenticating to Domain X when the IP tied to that computer has been identified in Domain Y
+
 #IP normalization function
 function gimmeIP([string]$line) { 
     if ( $line -match 'ffff'-and $line.Length -eq '16' ) {
