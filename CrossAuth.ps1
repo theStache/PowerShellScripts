@@ -1,4 +1,5 @@
 #Used to identify SVC accounts authenticating to Domain X when the IP tied to that computer has been identified in Domain Y
+#Review before you use it. Created by Tyler Williams, email tjwill86@gmail.com 20180408
 
 #IP normalization function
 function gimmeIP([string]$line) { 
